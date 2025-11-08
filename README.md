@@ -45,8 +45,8 @@ By accurately predicting landing outcomes, this model enables better **launch co
 - 7. Plotly Dash Interactive Dashboard.ipynb
 - 8. Machine Learning Prediction Model.ipynb
 - 9. Falcon 9 First Stage Landing Success Prediction for Launch Cost Optimization Report 
-- dataset_part_2.csv
-- README.md
+-    dataset_part_2.csv
+-    README.md
 
 
 ---
