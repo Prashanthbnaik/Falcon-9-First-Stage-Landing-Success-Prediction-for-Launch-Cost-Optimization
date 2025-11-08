@@ -63,10 +63,19 @@ By accurately predicting landing outcomes, this model enables better **launch co
 ---
 
 ## Key Findings and Insights
-- **Launch site** and **booster version** significantly influence landing success probability.  
-- **Payload mass** and **orbit type** have measurable effects on landing outcomes.  
-- The **best-performing model** achieved a **ROC-AUC score of ~0.89**, showing strong predictive capability.  
-- The model enables organizations to estimate landing success probability before a launch, supporting cost-optimized planning and decision-making.
+
+### Interpretation
+- Both **Logistic Regression** and **SVM** achieved the **highest accuracy (94.44%)**, indicating strong generalization on the test data.  
+- **Decision Tree** performed moderately well but may have **overfitted** the training data.  
+- **KNN** showed poor performance (**50% accuracy**), likely due to feature scaling issues or an unsuitable **k** value.  
+
+---
+
+### Conclusion
+- The **best performing models** are **Logistic Regression** and **SVM**.  
+- **SVM** can be chosen for its **high accuracy** and **robustness**.  
+- **Logistic Regression** is **simpler**, interpretable, and performs equally well — ideal if model **explainability** is important.
+
 
 ---
 
